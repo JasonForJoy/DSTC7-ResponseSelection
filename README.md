@@ -1,7 +1,7 @@
 # Dialog System Technology Challenges 7 (DSTC7) Track 1
 Implementation of the model for Track 1 of 7th Edition of the Dialog System Technology Challenges with Tensorflow
 
-This repository contains an implementation with Tensorflow of the model presented in the paper Building Sequential Inference Models for End-to-End Response Selection by Gu et al. in AAAI 2019 Workshop on DSTC7. <br>
+This repository contains an implementation with Tensorflow of the model presented in the paper [Building Sequential Inference Models for End-to-End Response Selection] by Gu et al. in AAAI 2019 Workshop on DSTC7. <br>
 In this challenge, the model has achieved the results of rank 2nd on Ubuntu dataset and rank 3rd on Flex dataset.
 
 # Dependencies
