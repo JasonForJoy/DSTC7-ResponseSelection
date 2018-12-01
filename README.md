@@ -8,8 +8,18 @@ In this challenge, the model has achieved the results of rank 2nd on Ubuntu data
 Python 2.7 <br>
 Tensorflow 1.4.0
 
-# Download
-You can refer to the official website [DSTC7](https://github.com/IBM/dstc7-noesis) to download the dataset.
+# Data Preparation
+Step 1. Refer to the official website [DSTC7](https://github.com/IBM/dstc7-noesis) to download the dataset. <br>
+
+Step 2. Create a vocabulary file composed of words in the datast and name it as "vocab.txt". <br>
+
+Step 3. Download the [Glove embeddings](http://www-nlp.stanford.edu/data/glove.840B.300d.zip) and train word embeddings with Word2Vec. Then combine these two embedding files as proposed in the paper by running the following commands. <br>
+
+```
+cd data
+python train_word2vec.py
+python combine_emb.py
+```
 
 # Running the scripts
 ## Train a new model
