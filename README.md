@@ -7,10 +7,10 @@ This repository contains an implementation with Tensorflow of the model presente
 Python 2.7 <br>
 Tensorflow 1.4.0
 
-# Running the scripts
-## Download
-You can refer to the official website ["DSTC7"](https://github.com/IBM/dstc7-noesis) to download the dataset.
+# Download
+You can refer to the official website [DSTC7](https://github.com/IBM/dstc7-noesis) to download the dataset.
 
+# Running the scripts
 ## Train and test a new model
 ```
 cd scripts
