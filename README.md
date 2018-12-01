@@ -1,18 +1,15 @@
-# DSTC7-ResponseSelection
+# Dialog System Technology Challenges 7 (DSTC7)
 Implementation of the model for 7th Edition of the Dialog System Technology Challenges with Tensorflow
 
-This repository contains an implementation with Tensorflow of the model presented in the paper ["Building Sequential Inference Models for End-to-End Response Selection"](http://www.aclweb.org/anthology/P17-1152) by Gu et al. in AAAI 2019 Workshop on Dialog System Technology Challenges.
+This repository contains an implementation with Tensorflow of the model presented in the paper ["Building Sequential Inference Models for End-to-End Response Selection"](http://www.aclweb.org/anthology/P17-1152) by Gu et al. in AAAI 2019 Workshop on Dialog System Technology Challenges. In this challenge, the model has achieved the results of rank 2nd on Ubuntu dataset and rank 3rd on Flex dataset.
 
 # Dependencies
 Python 2.7 <br>
 Tensorflow 1.4.0
 
 # Running the scripts
-## Download and preprocess
-```
-cd data
-bash fetch_and_preprocess.sh
-```
+## Download
+You can refer to the official website ["DSTC7"](https://github.com/IBM/dstc7-noesis) to download the dataset.
 
 ## Train and test a new model
 ```
